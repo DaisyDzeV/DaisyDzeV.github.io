@@ -1,0 +1,19 @@
+ h1 {
+    text-align: center;
+    font-size: 28pt;
+}
+    body img {
+    align-items: flex-start;
+    float: left;
+}
+h2 {
+    font-size: 22pt;
+    text-align: center;
+}
+h3 {
+    font-size: 22pt;
+    text-align: center;
+}
+body div {
+    padding: 88pt;
+}

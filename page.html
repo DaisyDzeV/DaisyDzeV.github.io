@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang= "en">
+<head>
+<meta charset="utf-8">
+<title>Homework 1</title>
+<meta name="description" content="Assignment 1 for Mobile Web App Development course at College of San Mateo by Daisy Vazquez">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+	
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#heading").css("color", "#f0e130");
+    $("#heading").animate({"font-size": "+=0.5rem"}, 3000);
+    $("img").css("border", "4px solid #f0e130");
+    $("#heading").animate({"font-size": "-=0.5rem"}, 3000);
+  var timer = setTimeout(function() {$("#heading").css("color", "black")}, 5000);
+  });
+});	
+
+</script>
+	
+</head>
+
+<body>
+<div id="heading">
+<h1> CIS 128- Mobile Web App Development </h1>
+</div>
+<img src="portrait_DaisyVazquez_CIS128.jpg" width="323" height="240" alt="Daisy V smiling in portrait picture">
+<br>
+<div id="intro">
+<p id="intro p">Hello there! My name is Daisy Vazquez. I am originally from the Los Angeles area and now live in San Jose, CA. During the weekdays I work as a professional childcare provider to pay rent in the Bay area. Besides that, I am a graphic designer and a full-time student at CSM. </p>
+</div>
+<div id="why">
+<p>I am attending this class as my last class to complete a degree in Mobile App and Web Design from College of San Mateo. I also want to improve my skills in all aspects of web and app design. </p> 
+</div>
+	
+<h2>Technologies for this class</h2>
+	<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>Javascript</li>
+	</ul>
+	
+<h3>Resources</h3>
+<ul>
+	<li><a href="https://www.w3schools.com/default.asp" title="Website 1" rel="noopener noreferrer" target="_blank">W3 Schools</a> is a good resource because it covers all aspects of web development through  tutorials, references, and exercises. I have used it in previous web design classes and it has helped me through the learning process. </li>
+	<li><a href="https://m2.material.io/" title="Material" rel="noopener noreferrer" target="_blank">Material Design</a> is a good resource because it provides guidelines, components, tools, and additional resources that will support the best practices of user interface design.</li>
+	<li><a href="https://www.pexels.com/" title="Pexels" rel="noopener noreferrer" target="_blank">Pexels</a> is a good resource because users can find stock free, royalty free images and videos that can be used and downloaded for free. </li>
+	</ul>
+<button> Start animation </button>
+<br>
+<br>
+</body>
+</html>

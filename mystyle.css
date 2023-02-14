@@ -1,8 +1,31 @@
- h1 {
-    text-align: center;
-    font-size: 28pt;
+body {
+	font-size: 16px;
+} 
+#heading {
+	font-size: 22px;
 }
-    body img {
+#intro {
+	padding-top: 66px;
+	padding-bottom: 44px;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+#introp {
+	padding-left: 400px;
+	padding-right: 62px;
+	width: 800px;
+}
+#why {
+	padding-top: 22px;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+h1 {
+	text-align: center;
+}
+body img {
+	padding-left: 22px;
+	padding-right: 22px;
     align-items: flex-start;
     float: left;
 }
@@ -14,6 +37,10 @@ h3 {
     font-size: 22pt;
     text-align: center;
 }
-body div {
-    padding: 88pt;
+button { 
+	font-size: 1rem;
+    color: white;
+	padding: 0.4em; 
+	width: 8em; 
+	background-color: blue; 
 }

@@ -1,0 +1,263 @@
+@charset "UTF-8";
+html {
+	box-sizing: border-box;
+}
+/**
+ * Color, typography and basic layout
+ * Colors:
+ * - #eaf8fb -> Light blue (background)
+ * - #333    -> Dark gray (header background)
+ * - #4a4a4a -> Dark grey (nav link background) 
+ * - #fff    -> White (nav link text)
+ * - #595959 -> Light grey (nav solid border around the link)
+ * - #000    -> Black (nav hover background)
+ * - #445e64 -> Medium blue (sidebar link text)
+ * - #c3dce1 -> Light blue (sidebar list bottom border)
+ * - #c4d5d9 -> Light blue-grey (footer background)
+ 
+ */
+body, h1, h2, h3, p, .float-left, ul, li{
+		border:0; margin:0; padding:0;
+	}
+	
+	body{
+		background:#eaf8fb;	/* a light blue background color. */
+		font-family:Arial, Helvetica, sans-serif; 
+		font-size:0.6em; 
+	}
+
+
+/* header styles */
+div#header{
+		background-color:#333; 
+		background-image:url(images/headerbkgd.png); 
+		background-repeat:no-repeat; 
+		background-position:left bottom;
+		color:#fff;	
+		-webkit-border-bottom-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+		
+/* nav styles */
+	
+	ul.navigation {
+		list-style:none;
+	}
+					
+	ul.navigation li{
+		display:inline-block; 
+					}
+					
+	ul.navigation li a{
+		background:#4a4a4a;	
+		color:#fff;	
+		-moz-border-radius:2px; 
+		webkit-border-radius:2px; 
+		border-radius:2px;	
+		border:1px solid #595959; 
+		text-decoration:none; 
+	}
+						
+	ul.navigation li a:hover{
+		background-color:#000; 
+		
+	}
+
+/* main content styles */
+	p{
+		letter-spacing:.04em; 
+		line-height:21px; 
+	}
+		
+
+				
+	div.col-right{
+		float:right;
+		}
+		
+	div.sidebar-left{
+		float:left;
+		}
+		
+	div.sidebar-left a{
+		color:#445e64;	
+	}
+	
+	div.sidebar-left a:hover{
+		text-decoration:none
+	}	
+	
+	.list{
+		border-bottom:1px solid #c3dce1; 
+	}
+	
+	.list li a{
+		font-weight:bold;	
+		text-transform:uppercase;	
+		font-size:11px;	
+	}
+	
+/*footer styles */			
+	div#footer{
+		background-color:#c4d5d9;
+		text-align:center;
+	
+	}
+
+/*for mobile devices!! */
+@media screen and (max-width:600px) {
+  body, #header, .navigation, #content, .col-right, .sidebar-left, .footer {
+    width: 960px; 
+    box-sizing: border-box;
+  }
+
+  .header {
+    display:none;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  h1 {
+    padding: 0.25rem 0;
+  }
+
+}
+/* header styles */
+div#header{
+	margin:0 auto; 
+		min-height:130px;	
+		padding:45px 15px 15px;	
+	    width:870px;	
+}
+/* nav styles */
+	
+	ul.navigation {
+		margin-top:20px;	
+	}
+					
+	ul.navigation li{
+		margin:0 3px 5px;	
+					}
+					
+	ul.navigation li a{
+		padding:3px 10px;	
+	}
+						
+	
+/* main content styles */
+	p{
+		letter-spacing:.04em; 
+		line-height:21px; 
+	}
+	
+	div.content{
+		margin:15px auto; 
+		width:900px;
+	}
+				
+	div.col-right{
+		float:right;
+		width:660px
+		}
+		
+	div.sidebar-left{
+		float:left;
+		padding:0 10px;
+		width:200px;	
+		}
+		
+	.list{
+		padding:0 0 20px 15px;	
+	}
+	.list li{
+		margin-bottom:10px
+	}
+	.list li a{
+		font-size:11px;	
+	}
+	
+/*footer styles */			
+	div#footer{
+		margin:0 auto;
+		padding:15px;
+		width:900px;
+}
+/*for laptop/desktop!! */
+@media screen and (min-width:601px) {
+  body {
+	width: 100%;
+	}
+}
+div#header{
+	margin:0 auto; 
+		min-height:130px;	
+		padding:45px 15px 15px;	
+		width:870px;	
+}
+/* nav styles */
+	
+	ul.navigation {
+		margin-top:20px;	
+	}
+					
+	ul.navigation li{
+		margin:0 3px 5px;	
+					}
+					
+	ul.navigation li a{
+		padding:3px 10px;	
+	}
+						
+	
+/* main content styles */
+	p{
+		letter-spacing:.04em; 
+		line-height:21px; 
+	}
+	
+	div.content{
+		margin:15px auto; 
+		width:900px;
+	}
+				
+	div.col-right{
+		float:right;
+		width:660px
+		}
+		
+	div.sidebar-left{
+		float:left;
+		padding:0 10px;
+		width:200px;	
+		}
+		
+	.list{
+		padding:0 0 20px 15px;	
+	}
+	.list li{
+		margin-bottom:10px
+	}
+	.list li a{
+		font-size:11px;	
+	}
+.float-left {
+	float:left;
+	margin:0  10px 10px 0;
+}
+	
+/*footer styles */			
+div#footer{
+		margin:0 auto;
+		padding:15px;
+		width:900px;
+}
+
+	.clear{
+		clear:both; 
+	}	

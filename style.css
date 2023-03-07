@@ -121,22 +121,13 @@ and (max-width : 480px) {
   .header {
     display:none;
   }
-
-  p {
-    margin: 0.5rem 0;
-  }
-
-  h1 {
-    padding: 0.25rem 0;
-  }
-
 }
 /* header styles */
 div#header{
 	margin:0 auto; 
 		min-height:130px;	
 		padding:45px 15px 15px;	
-	    width:870px;	
+	        width:870px;	
 }
 /* nav styles */
 	
@@ -154,9 +145,15 @@ div#header{
 						
 	
 /* main content styles */
+	h1 {
+    		padding: 0.25rem 0;
+  }
 	p{
+		font-size: 
 		letter-spacing:.04em; 
 		line-height:21px; 
+    		margin: 0.5rem 0;
+
 	}
 	
 	div.content{

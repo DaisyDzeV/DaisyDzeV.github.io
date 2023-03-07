@@ -72,8 +72,6 @@ div#header{
 		letter-spacing:.04em; 
 		line-height:1.3125em; 
 	}
-		
-
 				
 	div.col-right{
 		float:right;
@@ -101,11 +99,8 @@ div#header{
 		font-size:11px;	
 	}
 	.yak{
-		width: 100%;
+		max-width: 100%;
 		height: auto;
-  		background-image: url('img1.jpg');
-  		background-repeat: no-repeat;
-  		background-size: contain;
         }
 /*footer styles */			
 	div#footer{

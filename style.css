@@ -116,6 +116,7 @@ div#header{
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     width: 100%; 
     box-sizing: border-box;
+    flex-direction: column;
   }
 
   .header {

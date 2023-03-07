@@ -115,7 +115,6 @@ and (max-width : 520px) {
 /* Styles */
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     box-sizing: border-box;
-    flex-direction: column;
   }
   .header {
     display:none;
@@ -126,7 +125,7 @@ div#header{
 	margin:0 auto; 
 		min-height:8.125em;	
 		padding:45px 15px 15px;	
-	        width:100%;	
+	 width:100%;	
 }
 /* nav styles */
 	
@@ -151,8 +150,7 @@ div#header{
 		font-size: 0.625em;
 		letter-spacing:.02em; 
 		line-height:1.2em; 
-    		margin: 0.2rem 0;
-
+  margin: 0.2rem 0;
 	}
 	
 	div.content{
@@ -268,7 +266,7 @@ h2 {
 div#footer{
 		margin:0 auto;
 		padding:0.9375em;
-		width:56.25em;
+		width:54.375em;
 }
 
 	.clear{

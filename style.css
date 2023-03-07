@@ -112,7 +112,10 @@ div#header{
 	}
 
 /*for mobile devices!! */
-@media screen and (min-width: 40em) {
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     box-sizing: border-box;
     flex-direction: column;
@@ -192,7 +195,9 @@ div#header{
 		width:900px;
 }
 /*for laptop/desktop!! */
-@media screen and (min-width:801px) {
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
   body {
 	width: 100%;
 	}

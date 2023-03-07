@@ -85,7 +85,7 @@ div#header{
 	}
 	
 	div.sidebar-left a:hover{
-		text-decoration:none
+		text-decoration:none;
 	}	
 	
 	.list{
@@ -158,7 +158,7 @@ div#header{
 	
 	div.content{
 		margin:0.9375em auto; 
-		max-width:100%;
+		width:100%;
 	}
 				
 	div.col-right{
@@ -236,8 +236,8 @@ h2 {
 	}
 	
 	div.content{
-		margin:15px auto; 
-		width:56.25em;
+		margin:0.9375em auto; 
+		width:auto;
 	}
 				
 	div.col-right{

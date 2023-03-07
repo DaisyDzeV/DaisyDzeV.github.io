@@ -152,42 +152,42 @@ div#header{
 	p{
 		font-size: 0.625em;
 		letter-spacing:.04em; 
-		line-height:21px; 
-    		margin: 0.5rem 0;
+		line-height:1.3125em; 
+    		margin: 0.2rem 0;
 
 	}
 	
 	div.content{
-		margin:15px auto; 
-		width:900px;
+		margin:0.9375em auto; 
+		width:100%;
 	}
 				
 	div.col-right{
 		float:right;
-		width:660px
+		width:41.25em;
 		}
 		
 	div.sidebar-left{
 		float:left;
-		padding:0 10px;
-		width:200px;	
+		padding:0 0.625em;
+		width:12.5em;	
 		}
 		
 	.list{
-		padding:0 0 20px 15px;	
+		padding:0 0 1.25em 0.9375em;	
 	}
 	.list li{
-		margin-bottom:10px
+		margin-bottom:0.625em;
 	}
 	.list li a{
-		font-size:11px;	
+		font-size:0.6875em;	
 	}
 	
 /*footer styles */			
 	div#footer{
 		margin:0 auto;
-		padding:15px;
-		width:900px;
+		padding:0.9375em;
+		width:56.25em;
 }
 /*for laptop/desktop!! */
 @media only screen

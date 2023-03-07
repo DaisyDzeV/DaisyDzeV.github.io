@@ -117,6 +117,7 @@ and (max-width : 520px) {
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     box-sizing: border-box;
     flex-direction: column;
+    overflow-x:hidden;
   }
   .header {
     display:none;

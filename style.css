@@ -112,7 +112,7 @@ div#header{
 	}
 
 /*for mobile devices!! */
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:500px) {
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     width: 100%; 
     box-sizing: border-box;
@@ -192,16 +192,16 @@ div#header{
 		width:900px;
 }
 /*for laptop/desktop!! */
-@media only screen and (min-width:301px) {
+@media only screen and (min-width:501px) {
   body {
 	width: 100%;
 	}
 }
 div#header{
 	margin:0 auto; 
-		min-height:130px;	
-		padding:45px 15px 15px;	
-		width:870px;	
+		min-height:8.125em;	
+		padding:8.125em 0.9375em 0.9375em;	
+		width:54.375em;	
 }
 /* nav styles */
 	
@@ -226,39 +226,39 @@ div#header{
 	
 	div.content{
 		margin:15px auto; 
-		width:900px;
+		width:56.25em;
 	}
 				
 	div.col-right{
 		float:right;
-		width:660px
+		width:41.25em;
 		}
 		
 	div.sidebar-left{
 		float:left;
-		padding:0 10px;
-		width:200px;	
+		padding:0 0.625em;
+		width:12.5em;	
 		}
 		
 	.list{
-		padding:0 0 20px 15px;	
+		padding:0 0 1.25em 0.9375em;	
 	}
 	.list li{
-		margin-bottom:10px
+		margin-bottom:0.625em;
 	}
 	.list li a{
-		font-size:11px;	
+		font-size:0.6875em;	
 	}
-.float-left {
+.yak {
 	float:left;
-	margin:0  10px 10px 0;
+	margin:0  0.625em 0.625em 0;
 }
 	
 /*footer styles */			
 div#footer{
 		margin:0 auto;
-		padding:15px;
-		width:900px;
+		padding:0.9375em;
+		width:56.25em;
 }
 
 	.clear{

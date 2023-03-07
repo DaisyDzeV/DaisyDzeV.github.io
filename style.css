@@ -116,7 +116,6 @@ and (max-width : 520px) {
   body, #header, .navigation, .content, .col-right, .sidebar-left, #footer {
     box-sizing: border-box;
     flex-direction: column;
-    overflow-x:hidden;
   }
   .header {
     display:none;
@@ -125,7 +124,7 @@ and (max-width : 520px) {
 /* header styles */
 div#header{
 	margin:0 auto; 
-		min-height:130px;	
+		min-height:8.125em;	
 		padding:45px 15px 15px;	
 	        width:100%;	
 }
@@ -158,7 +157,7 @@ div#header{
 	
 	div.content{
 		margin:0.9375em auto; 
-		width:100%;
+		max-width:100%;
 	}
 				
 	div.col-right{

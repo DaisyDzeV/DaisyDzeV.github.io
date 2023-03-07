@@ -100,7 +100,10 @@ div#header{
 		text-transform:uppercase;	
 		font-size:11px;	
 	}
-	
+	.yak{
+	max-width: 100%;
+	height: auto;
+        }
 /*footer styles */			
 	div#footer{
 		background-color:#c4d5d9;

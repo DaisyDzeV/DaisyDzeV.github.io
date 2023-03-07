@@ -127,7 +127,7 @@ div#header{
 	margin:0 auto; 
 		min-height:130px;	
 		padding:45px 15px 15px;	
-	        width:870px;	
+	        width:100%;	
 }
 /* nav styles */
 	
@@ -150,8 +150,8 @@ div#header{
   }
 	p{
 		font-size: 0.625em;
-		letter-spacing:.04em; 
-		line-height:1.3125em; 
+		letter-spacing:.02em; 
+		line-height:1.2em; 
     		margin: 0.2rem 0;
 
 	}

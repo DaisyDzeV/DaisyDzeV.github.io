@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="using Semantic UI">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+<!--  <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css"> -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+<!--  <script src="Semantic-UI-CSS-master/semantic.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
+  <script>
+             $(document).ready(function(){
+                $('.ui.accordion').accordion();
+             });
+  </script>
+</head>
+
+<body>
+	<h1>ABC Toys</h1>
+	<br>
+<!--add nav bar with Home, Contact Us, Products, Location, Extra pages and LINK to pages!!!!-->
+<div class="ui top fixed five item menu">
+  <a href="index.html" class="active item">Home</a>
+  <a href="contactus.html" class="item">Contact Us</a>
+  <a href="products.html" class="item">Products</a>
+  <a href="location.html" class="item">Location</a>
+  <a href="extra.html" class="item">Extra</a>
+</div>
+<h1 class="ui center aligned header">Products</h1>
+<!-- Products page= Add 3 toys with toy name drop down menu to see picture and description of toy</p> -->
+<br>
+<div class="ui styled accordion">
+<div class="title">
+    <i class="dropdown icon"></i>
+    Puzzle
+  </div>
+  <div class="content">
+    <p>This is a wooden shape puzzle for kids. <img class="ui small rounded image" src="puzzle.jpg" alt="image of toy puzzle of wooden shapes"></p>
+  </div>
+
+<div style="margin-top: 20px" class="ui container">
+<div class="title">
+    <i class="dropdown icon"></i>
+    Teddy Bear
+  </div>
+  <div class="content">
+    <p>The teddy bear is a classic childrens toy.<img class="ui small rounded image" src="teddy.jpg" alt="image of teddy bear on bench"></p>
+  </div>
+  
+<div class="title">
+    <i class="dropdown icon"></i>
+    Top Spinner
+  </div>
+  <div class="content">
+    <p>This toy is a wooden top spinner for kids.<img class="ui small rounded image" src="top.jpg" alt="image of kids toy, the top spinner"></p>
+  </div>
+</div>
+	</div>
+	
+<script>$('.ui.accordion').accordion();</script> 
+	
+</body>
+</html>

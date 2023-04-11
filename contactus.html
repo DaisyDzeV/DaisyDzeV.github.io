@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="using Semantic UI">
+<link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+
+<title>contactus</title>
+
+</head>
+
+<body>
+<h1>ABC Toys</h1>
+	<br>
+<h1 class="ui center aligned header">Contact Us</h1>
+<!--add nav bar with Home, Contact Us, Products, Location, Extra pages and LINK to pages!!!!-->
+<div class="ui top fixed five item menu">
+  <a href="index.html" class="active item">Home</a>
+  <a href="contactus.html" class="item">Contact Us</a>
+  <a href="products.html" class="item">Products</a>
+  <a href="location.html" class="item">Location</a>
+  <a href="extra.html" class="item">Extra</a>
+</div>
+
+<div class="ui grid container">
+  <div class="center aligned column">
+  <div class="ui large list">
+  <div class="item">
+    <i class="mail icon"></i>
+    <div class="content">
+      <a href="mailto:ABCtoys@gmail.com">ABCtoys@gmail.com</a>
+    </div>
+  </div><br>
+  <div class="item">
+    <i class="marker icon"></i>
+    <div class="content">
+      1422 Flower St., Los Angeles, CA 90015
+    </div>
+  </div><br>
+  <button href="https://www.facebook.com/abctoysbd" class="ui facebook button">
+  <i class="facebook icon"></i>
+  Facebook
+</button>
+</div> 
+	</div>  
+  </div>
+<br>
+	
+
+<br>
+<!--*Small form to request the name, email address, and a comment area with a submit button here!!-->
+<br>
+<form class="ui small form">
+  <div class="three fields">
+	  <div class="field">
+    <label>Full Name</label>
+    <input type="text" name="fullname" placeholder="Full Name" maxlength="50">
+  </div>
+  <div class="field">
+    <label>Email Address</label>
+    <input type="email" name="email" placeholder="Email" required>
+  </div>
+  <div class="field">
+    <label>Comments</label>
+	<textarea rows="3"></textarea>
+  </div>
+  <button class="ui button" type="submit">Submit</button>
+	</div>
+</form>
+	<br>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"name": "Homework 4",
+	"short_name": "Hw4",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background-color": "#FFFFF",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"This is Homework 4 assignment for CIS 128",
+	"icons": [
+		{
+		  "src": "hw4_IMGs/Icons/iOS/Icon-48.png",
+		  "type": "image/png",
+		  "sizes": "48x48"
+		},
+		{
+			"src": "hw4_IMGs/Icons/iOS/Icon-100.png",
+			"type": "image/png",
+			"sizes": "100x100",
+		},
+		{
+			"src": "hw4_IMGs/Icons/iOS/Icon-196.png",
+			"type": "image/png",
+			"sizes": "196x196",
+	      }
+		]
+}
+

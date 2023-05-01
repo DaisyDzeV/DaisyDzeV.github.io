@@ -1,34 +1,75 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="using Semantic UI">
-  <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+<title>Homework 4 DV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-
-<title>ABC Toys</title>
+<link href="hw4.css" rel="stylesheet" type="text/css">
+<link rel="manifest" href="manifest.json">
+<link rel="app" href="app.js">
+<link rel= "sw" href="service-worker.js">
 </head>
 
 <body>
 
-<!--add nav bar with Home, Contact Us, Products, Location, Extra pages and LINK to pages!!!!-->
-<div class="ui top fixed five item menu">
-  <a href="index.html" class="active item">Home</a>
-  <a href="contactus.html" class="item">Contact Us</a>
-  <a href="products.html" class="item">Products</a>
-  <a href="location.html" class="item">Location</a>
-  <a href="extra.html" class="item">Extra</a>
+<div class="header">
+  <a href="#default" class="title">Homework 4</a>
+  <div class="header-right">
+   <ul>
+	   <li><a class="active" href="#home">Home</a></li>
+	 <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">BG Select</a>
+    <div class="dropdown-content">
+      <a href= "#">Background 1</a>
+      <a href="#">Background 2</a>
+    </div>
+  </li>
+	</ul> 
+  </div>
 </div>
-<br><br>
-<h1 class="ui center aligned header">ABC TOYS</h1>
-<h3>Making learning fun</h3>
-<p>ABC Toys is a company that opened its doors in 2001 and it has kept its mission for all those years.</p>
-<p>The mission of our company is to create toys that are safe for kindergarten kids but that challenge the kids' mind and motor skills making learning a fun task.</p>
-<p>By the way, parents love our toys too!</p>
+<div class="maincontent">
+<div class= "pwa">
+<br><h1> Progressive Web Application (PWA)</h1>
+	<!--https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/  this might help with guidance to create PWA-->
+	<p>Some characteristics of Progressive Web Applications or PWAs are fully responsive, allow for push notifications, and the interface is consistent with mobile app interface. Some specific characteristics discussed in the lecture were HTTP caching, web push notifications and web manifest. They are important becuase they ensure that users get a improved and engaging experience while using products. </p>
+	<p>The characteristics that stood out were that the can be accessed offline and they can be used on browesers with device features and styles. These two things are what seperate PWAs from native apps. </p>
+</div>
+<br>
+	<h1>Dropdown Bar</h1>
+<section>
+	<div class="bg"></div>
+	<select class="selectColor" onChange="changeColor (this)">
+		<option value="#ffffff">Original White</option>
+		<option value="hw4_IMGs/lightblue.jpg">Light Blue</option>
+		<option value="hw4_IMGs/lightgold.jpg">Light Gold</option>
+	</select>
+</section>
+</div>
+<br>
+<div class="assignment">
+	<h1>Twitter Install</h1>
+*Twitter opened in Chrome browser to show the install icon and the install option in the menuCreate a manifest file for that basic PWA so the user will be able to see the option to install the application when using the menu of the browser - see the image shown here when a web application with PWA features (such as Twitter) is presented in the Chrome browser, if you use the menu of the browser, you will see the option "Install Twitter" as shown in a red rectangle, and you will also see the icon to download the application (as shown with a red arrow).<br>
+<br>
+	<h1>Choose Icon and declare in manifest file</h1>
+*Choose a nice icon to your application and make the icon to be on the sizes you will need to declare in the manifest file! Tip: The icon needs to have the size you are declaring in the manifest file, which means you will need to use an image editor software to resize the icon to the sizes needed<br>
+<br>
+	<h1>Create service-worker.js file to make all PWA work offline</h1>
+*You will also create a service-worker.js file in order to make that PWA page work even when the user is offline - even the change of the background image should be able to work as the images would also be cached! <br>
+	<br>
+<h1>Cache everything!!</h1>
+	*Tip: remember to cache all the files that make your web application work: the HTML page, the CSS, the images you are using, etc.
+</div>
+<footer class="footer"></footer>
+<script>
+	function changeColor(getColor){
+		let bg = document.querySelector('.bg');
+		let selectColor = getColor.value
+		bg.style.background = selectColor;
+	}
+</script>
+<script src="app.js"> </script>
+<script src="service-worker.js"></script>
 
 </body>
 </html>

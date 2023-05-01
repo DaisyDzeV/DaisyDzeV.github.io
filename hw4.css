@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .maincontent {
-	margin: 4em;
+	margin: 1em;
 }
 
 .header {
@@ -128,12 +128,15 @@ button {
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-	 width: 100%;
+    width: 100%;
     display: block;
     text-align: left;
   }
   .header-right {
     float: none;
+  }
+.dropdown {
+    margin-left: 2em;
   }
 }
 

@@ -103,6 +103,7 @@ li.dropdown {
 }
 
 body {
+	font-family: "Futura Bold", "Futura Medium", "Futura PT Bold", "Futura PT Book", "Futura PT Demi", "Futura PT Extra Bold", "Futura PT Heavy", "Futura PT Light", "Futura PT Medium";
 	background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,13 +113,17 @@ div.bgSelect {
 	justify-content: center;
 }
 button {
-	height: 6em;
-	width: 6em;
-	border-radius: 3em;
-	margin: 2em;
+    height: 6em;
+    width: 6em;
+	font-family: "Futura PT Light";
+    border-radius: 3em;
+    margin: 2em;
+    background-color: #270431;
+    color: #F2E9F7;
 }
-
-
+p {
+	font-family: 'Futura PT Light';
+}
 .footer {
 	color: transparent;
 	border-radius: 3em;
@@ -128,16 +133,16 @@ button {
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-    width: 100%;
+	width: 100%;
     display: block;
     text-align: left;
   }
   .header-right {
     float: none;
   }
-.dropdown {
-    margin-left: 2em;
-  }
+	.dropdown {
+	margin-left: 2em;
+	}
 }
 
 @media screen and (max-width: 700px) {

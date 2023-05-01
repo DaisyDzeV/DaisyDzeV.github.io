@@ -1,10 +1,14 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
-    'Icons/iOS/Icon-48.png',
+        'Icons/iOS/Icon-48.png',
 	'Icons/iOS/Icon-100.png',
 	'Icons/iOS/Icon-196.png',
-    'app.js',
-    'styles.css'
+	'hw4_IMGs/lightblue.jpg',
+	'hw4_IMGs/lightgold.jpg',
+        'app.js',
+        'styles.css'
+	'script.js',
+	'manifest.json'
 ];
 
 self.addEventListener('install', event => {

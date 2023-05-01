@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .maincontent {
-	margin: 6em;
+	margin: 2em;
 }
 .header {
     overflow: hidden;
@@ -132,7 +132,7 @@ section {
 	border: none;
 	border-right: 10px solid #FFFFFF;
 	outline: none;
-	width: 200px;
+	width: 222px;
 	border-radius: 4px;
 	box-shadow: 0 15px 25px rgba(0,0,0,0,1);
 }

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .maincontent {
 	margin: 1em;
+	font: "Futura PT Light";
 }
 
 .header {
@@ -23,12 +24,14 @@
     font-size: 1.2em;
     line-height: -2em;
     border-radius: 2em;
+    justify-content: center;
 }
 
 .header a.title {
     font-size: 3em;
     font-weight: bold;
     background-color: #C5ADEA;
+    justify-content: center;
 }
 
 .header a:hover {
@@ -41,81 +44,21 @@
     color: white;
 }
 
-.header-right {
-  float: right;
-}
-
-/* Dropdown Menu to change background*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 1em;
-    overflow: hidden;
-    background-color: #C5ADEA;
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding-top: 14px;
-    padding-right: 2em;
-    padding-left: 16px;
-    padding-bottom: 14px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #C5ADEA;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #BCB1CC;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 body {
-	font-family: "Futura Bold", "Futura Medium", "Futura PT Bold", "Futura PT Book", "Futura PT Demi", "Futura PT Extra Bold", "Futura PT Heavy", "Futura PT Light", "Futura PT Medium";
-	background-color: #FFFFFF;
+    font-family: "Futura Bold", "Futura Medium", "Futura PT Bold", "Futura PT Book", "Futura PT Demi", "Futura PT Extra Bold", "Futura PT Heavy", "Futura PT Light", "Futura PT Medium";
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-size: cover;
 }
 div.bgSelect {
-	display:flex;
-	justify-content: center;
+    display:flex;
+    justify-content: center;
 }
 button {
     height: 6em;
     width: 6em;
-	font-family: "Futura PT Light";
+    font-family: "Futura PT Light";
     border-radius: 3em;
     margin: 2em;
     background-color: #270431;
@@ -133,16 +76,11 @@ p {
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-	width: 100%;
+    width: 100%;
     display: block;
-    text-align: left;
+    text-align: center;
   }
-  .header-right {
-    float: none;
-  }
-	.dropdown {
-	margin-left: 2em;
-	}
+ 
 }
 
 @media screen and (max-width: 700px) {

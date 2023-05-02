@@ -3,7 +3,6 @@
 	margin: 1em;
 	font: "Futura PT Light";
 }
-
 .header {
     overflow: hidden;
     background-color: #C5ADEA;
@@ -44,7 +43,10 @@
     color: white;
 }
 
-
+h4{
+  justify-content: center;
+  text-align: center;
+}
 body {
     font-family: "Futura Bold", "Futura Medium", "Futura PT Bold", "Futura PT Book", "Futura PT Demi", "Futura PT Extra Bold", "Futura PT Heavy", "Futura PT Light", "Futura PT Medium";
     background-color: #FFFFFF;

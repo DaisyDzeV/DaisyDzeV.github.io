@@ -37,10 +37,11 @@ h1 {
 	align-content: center;
 	font-family: "Futura PT Light Oblique";
 	margin: 10em;
+	padding: 10px;
 }
 
 
-/* Let's Compare Accordion with style --> */
+/* Let's Compare Accordion with style  */
 .transition, ul li i:before, ul li i:after, p {
   transition: all 0.25s ease-in-out;
 }
@@ -171,7 +172,7 @@ p {
     position: relative;
     padding: 0;
     margin: 0;
-    padding-bottom: 4px;
+    padding-bottom: 1px;
     padding-top: 18px;
     border-top: 1px groove #BEB0C5;
 }
@@ -252,17 +253,21 @@ p {
 }
 
 button{
-  float: center;
-  margin: 22px;
-  padding: 14px;
-  border-radius: 50%;
-  border-color: #634872;
-  border-style: groove;
-  font-size: 1em;
-  font-family: "Futura PT Light";
-  background-color:#9B76B0;
-  
+    float: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 14px;
+    border-radius: 14px;
+    border-color: #25044E;
+    border-style: outset;
+    font-size: 1em;
+    font-family: "Futura PT Light";
+    color: #9B76B0;
+    background-color: #170331;
 }
 button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.82), 0 17px 50px 0 rgba(0,0,0,0.98);
+    -webkit-box-shadow: inset 0 2px 1px 0 rgba(0,0,0,0.82),0 17px 50px 0 rgba(0,0,0,0.98); 
+	box-shadow: inset 0 2px 1px 0 rgba(0,0,0,0.82),0 17px 50px 0 rgba(0,0,0,0.98);
 }

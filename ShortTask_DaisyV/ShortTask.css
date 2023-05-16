@@ -133,7 +133,7 @@ h2 {
   letter-spacing: 1px;
   text-align: center;
   display: block;
-  background-color: #00000;
+  background-color: #000000;
   margin: 0;
   cursor: pointer;
 }
@@ -163,7 +163,7 @@ p {
 
 .accordion {
   list-style: none;
-  perspective: 900;
+  perspective: 900px;
   padding: 8vw;
   margin: 0;
 
@@ -253,7 +253,7 @@ p {
 }
 
 button{
-    float: center;
+    float: inherit;
     margin-top: 30px;
     margin-right: 30px;
     margin-left: 30px;
